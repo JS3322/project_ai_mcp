@@ -36,6 +36,13 @@
             ],
             "console": "integratedTerminal",
             "justMyCode": true
-        }
+        },
+        {
+            "name": "mcp call - custom",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_schedule_client.py",
+            "console": "integratedTerminal"
+        },
     ]
 }
