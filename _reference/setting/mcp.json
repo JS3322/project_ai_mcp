@@ -6,6 +6,11 @@
                 "main.py"
             ],
             "cwd": "/home/js/cleancode/project_ai_mcp"
+        },
+        "files": {
+            "command": "uv",
+            "args": ["run main_file.py"],
+            "cwd": "/home/js/cleancode/project_ai_mcp"
         }
     }
 } 
