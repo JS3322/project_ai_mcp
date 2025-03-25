@@ -5,25 +5,37 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "mcp custom server",
+            "name": "mcp server - custom",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/main.py",
             "console": "integratedTerminal"
         },
         {
-            "name": "mcp file management server",
+            "name": "mcp server - file management",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/main_file.py",
             "console": "integratedTerminal"
         },
         {
-            "name": "mcp test",
+            "name": "mcp test - custom",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/test_mcp.py",
             "console": "integratedTerminal"
         },
+        {
+            "name": "mcp test - file management",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "tests/test_main_file.py",
+                "-v"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
     ]
 }
