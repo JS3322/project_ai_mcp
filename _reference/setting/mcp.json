@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "schedule_management": {
+            "command": "/home/js/cleancode/project_ai_mcp/.venv/bin/python",
+            "args": [
+                "main.py"
+            ],
+            "cwd": "/home/js/cleancode/project_ai_mcp"
+        }
+    }
+} 
