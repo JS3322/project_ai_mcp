@@ -3,13 +3,21 @@
         "schedule_management": {
             "command": "/home/js/cleancode/project_ai_mcp/.venv/bin/python",
             "args": [
+                "--directory", 
+                "/home/js/cleancode/project_ai_mcp",
+                "run",
                 "main.py"
             ],
             "cwd": "/home/js/cleancode/project_ai_mcp"
         },
         "files": {
             "command": "uv",
-            "args": ["run main_file.py"],
+            "args": [
+                "--directory", 
+                "/home/js/cleancode/project_ai_mcp",
+                "run",
+                "main_file.py"
+            ],
             "cwd": "/home/js/cleancode/project_ai_mcp"
         }
     }
