@@ -11,7 +11,7 @@
             "cwd": "/home/js/cleancode/project_ai_mcp"
         },
         "files": {
-            "command": "uv",
+            "command": "/Users/js/.local/bin/uv",
             "args": [
                 "--directory", 
                 "/home/js/cleancode/project_ai_mcp",
