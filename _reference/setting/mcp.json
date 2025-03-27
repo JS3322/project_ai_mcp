@@ -19,6 +19,16 @@
                 "main_file.py"
             ],
             "cwd": "/home/js/cleancode/project_ai_mcp"
+        },
+        "calculator": {
+            "command": "/home/js/cleancode/project_ai_mcp/.venv/bin/python",
+            "args": [
+              "/home/js/cleancode/project_ai_mcp/main_calculator.py"
+            ],
+            "cwd": "/home/js/cleancode/project_ai_mcp",
+            "env": {
+              "PYTHONPATH": "/home/js/cleancode/project_ai_mcp"
+            }
         }
     }
 } 
