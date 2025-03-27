@@ -32,3 +32,5 @@
         }
     }
 } 
+
+// wsl ubuntu path : \\wsl$\Ubuntu\home\사용자이름\project_ai_model
