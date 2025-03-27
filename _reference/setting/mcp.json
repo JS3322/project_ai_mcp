@@ -29,8 +29,18 @@
             "env": {
               "PYTHONPATH": "/home/js/cleancode/project_ai_mcp"
             }
+        },
+        "machine learning school": {
+            "command": "/home/js/.local/bin/uv",
+            "args": [
+              "--directory",
+              "/home/js/cleancode/project_ai_mcp",
+              "run",
+              "main_mlschool.py"
+            ]
         }
     }
 } 
 
 // wsl ubuntu path : \\wsl$\Ubuntu\home\사용자이름\project_ai_model
+// mlschool command example : invoke the model with 3 samples from the penguins.csv file

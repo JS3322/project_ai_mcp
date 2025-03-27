@@ -26,6 +26,13 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "mcp server - mlschool",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main_mlschool.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "mcp test - custom",
             "type": "debugpy",
             "request": "launch",
