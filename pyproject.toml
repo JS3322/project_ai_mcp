@@ -11,4 +11,7 @@ dependencies = [
     "pytest-asyncio==0.25.3",
     "uvicorn==0.34.0",
     "aiohttp",
+    "pymcp==0.1.0",
+    "requests",
+    "boto3",
 ]

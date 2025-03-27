@@ -2,6 +2,11 @@
 
 This is a simple example of a Model Context Protocol (MCP) server implementation in Python. The server demonstrates basic MCP features including resources, tools, and prompts.
 
+# use pymcp
+```
+pymcp cursor add-server calculator main_calculator.py
+```
+
 ## Features
 
 - Resource endpoint for getting greetings
