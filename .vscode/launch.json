@@ -19,6 +19,13 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "mcp server - calculator",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main_calculator.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "mcp test - custom",
             "type": "debugpy",
             "request": "launch",
