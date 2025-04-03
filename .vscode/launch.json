@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "mcp server - remote",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/mcp_server_remote.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "mcp server - custom",
             "type": "debugpy",
             "request": "launch",

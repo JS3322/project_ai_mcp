@@ -1,46 +1,51 @@
 {
     "mcpServers": {
         "schedule_management": {
-            "command": "/home/js/cleancode/project_ai_mcp/.venv/bin/python",
+            "command": "/Users/js/cleancode/project_ai_mcp/.venv/bin/python",
             "args": [
-                "--directory", 
-                "/home/js/cleancode/project_ai_mcp",
-                "run",
-                "main.py"
-            ],
-            "cwd": "/home/js/cleancode/project_ai_mcp"
+                "/Users/js/cleancode/project_ai_mcp/main.py"
+            ]
         },
         "files": {
-            "command": "/home/js/.local/bin/uv",
-            "args": [
-                "--directory", 
-                "/home/js/cleancode/project_ai_mcp",
-                "run",
-                "main_file.py"
-            ],
-            "cwd": "/home/js/cleancode/project_ai_mcp"
+            "command": "/Users/js/cleancode/project_ai_mcp/.venv/bin/python",
+            "args": ["/Users/js/cleancode/project_ai_mcp/run main_file.py"],
+            "cwd": "/Users/js/cleancode/project_ai_mcp"
         },
         "calculator": {
-            "command": "/home/js/cleancode/project_ai_mcp/.venv/bin/python",
+            "command": "/Users/js/cleancode/project_ai_mcp/.venv/bin/python",
             "args": [
-              "/home/js/cleancode/project_ai_mcp/main_calculator.py"
+              "/Users/js/cleancode/project_ai_mcp/main_calculator.py"
             ],
-            "cwd": "/home/js/cleancode/project_ai_mcp",
+            "cwd": "/Users/js/cleancode/project_ai_mcp",
             "env": {
-              "PYTHONPATH": "/home/js/cleancode/project_ai_mcp"
+              "PYTHONPATH": "/Users/js/cleancode/project_ai_mcp"
             }
         },
         "machine learning school": {
-            "command": "/home/js/.local/bin/uv",
+            "command": "/Users/js/cleancode/project_ai_mcp/.venv/bin/python",
+            "args": [
+              "/Users/js/cleancode/project_ai_mcp/main_mlschool.py"
+            ]
+        },
+        "Weather info permission denied": {
+            "command": "/Users/js/.local/share/uv",
             "args": [
               "--directory",
-              "/home/js/cleancode/project_ai_mcp",
+              "/Users/js/cleancode/project_ai_mcp",
               "run",
-              "main_mlschool.py"
+              "mcp_server_local.py"
             ]
-        }
+        },
+        "Weather info": {
+          "command": "/Users/js/cleancode/project_ai_mcp/.venv/bin/python",
+          "args": [
+            "/Users/js/cleancode/project_ai_mcp/mcp_server_local.py"
+          ],
+          "transport": "stdio"
+        },
+        "Weather info remote": {
+          "url": "http://0.0.0.0:8005/sse",
+          "transport": "sse"
+      }
     }
 } 
-
-// wsl ubuntu path : \\wsl$\Ubuntu\home\사용자이름\project_ai_model
-// mlschool command example : invoke the model with 3 samples from the penguins.csv file
